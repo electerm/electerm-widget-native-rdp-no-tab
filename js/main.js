@@ -1,5 +1,5 @@
 electerm.onTabStatusChange(tab => {
-  if (tab.type === 'rdp' && tab.options.client === 'external' && tab.status === 'success') {
+  if (tab.type === 'rdp' && tab.nativeRdp && tab.status === 'success') {
     electerm.closeTab(tab.id)
   }
 })
