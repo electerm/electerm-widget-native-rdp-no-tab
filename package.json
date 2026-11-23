@@ -1,0 +1,12 @@
+{
+  "name": "electerm-widget-native-rdp-no-tab",
+  "version": "1.0.0",
+  "description": "Close the Electerm tab when Windows Remote Desktop starts.",
+  "electerm": {
+    "id": "native-rdp-no-tab",
+    "name": "Native RDP without a tab",
+    "type": "instance",
+    "assets": { "js": ["js/main.js"] },
+    "singleInstance": true
+  }
+}
